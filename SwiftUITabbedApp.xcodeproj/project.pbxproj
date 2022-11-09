@@ -11,6 +11,8 @@
 		358E5040291C488400C3AC2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358E503F291C488400C3AC2C /* ContentView.swift */; };
 		358E5042291C488400C3AC2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358E5041291C488400C3AC2C /* Assets.xcassets */; };
 		358E5045291C488400C3AC2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358E5044291C488400C3AC2C /* Preview Assets.xcassets */; };
+		358E504C291C492600C3AC2C /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358E504B291C492600C3AC2C /* FirstTabView.swift */; };
+		358E504E291C497200C3AC2C /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358E504D291C497200C3AC2C /* SecondTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		358E503F291C488400C3AC2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		358E5041291C488400C3AC2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		358E5044291C488400C3AC2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		358E504B291C492600C3AC2C /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		358E504D291C497200C3AC2C /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				358E503F291C488400C3AC2C /* ContentView.swift */,
 				358E5041291C488400C3AC2C /* Assets.xcassets */,
 				358E5043291C488400C3AC2C /* Preview Content */,
+				358E504B291C492600C3AC2C /* FirstTabView.swift */,
+				358E504D291C497200C3AC2C /* SecondTabView.swift */,
 			);
 			path = SwiftUITabbedApp;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358E504E291C497200C3AC2C /* SecondTabView.swift in Sources */,
 				358E5040291C488400C3AC2C /* ContentView.swift in Sources */,
+				358E504C291C492600C3AC2C /* FirstTabView.swift in Sources */,
 				358E503E291C488400C3AC2C /* SwiftUITabbedAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
